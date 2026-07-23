@@ -1,10 +1,11 @@
-title: Alice over Sora - Weapon Pivot Alignment Test v9
+title: Alice over Sora - Skirt, Grip and Forearm Test v10
 description: >-
-  Narrow refinement of the stable v8 Alice-on-Sora re-rig. Moves Sora's
-  Keyblade root to Alice's visible palm endpoint so the weapon and its native
-  collision path better match her hand. Alice's v8 body, both remastered CVBL
-  streams, textures, and rigid safety groups remain unchanged. This test does
-  not replace MSET, Lua, gameplay, collision events, effects, or weapon assets.
+  Refinement of the validated v9 Alice-on-Sora model. Divides Alice's rigid
+  skirt into pelvis-held front/rear/waist/hem regions and left/right side
+  regions that follow the corresponding upper thighs. Reshapes the weapon
+  hand into a fixed grip around the validated Keyblade root and improves the
+  weapon forearm's elbow-to-wrist alignment. This visual-only test does not
+  replace MSET, Lua, gameplay, collision events, effects, or weapon assets.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
