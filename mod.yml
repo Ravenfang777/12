@@ -1,10 +1,10 @@
-title: Alice over Sora - Anatomy Pivot Alignment Test v7
+title: Alice over Sora - Full Anchor Alignment Test v8
 description: >-
-  Region-aware refinement of the stable v6 Alice-on-Sora re-rig. Aligns
-  Alice's torso, shoulders, arms, palms, head, hips, and knees toward their
-  mapped Sora bind pivots while keeping the shoes grounded and preserving the
-  rigid skirt, hair, and finger safety groups. This isolated visual test does
-  not replace MSET, Lua, gameplay, collision events, effects, or weapons.
+  Full mapped-anatomy refinement of the stable v7 Alice-on-Sora re-rig.
+  Aligns Alice's primary body regions to Sora's exact bind anchors across the
+  base MDLS and both remastered CVBL streams while preserving rigid skirt,
+  hair, finger, and sleeve safety groups. This isolated visual test does not
+  replace MSET, Lua, gameplay, collision events, effects, or weapons.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
