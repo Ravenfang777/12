@@ -1,14 +1,22 @@
-title: Alice over Sora - Visual Compatibility Test v1
+title: Alice over Sora - Matched MDLS Test v2
 description: >-
-  Replaces only Sora's normal-field remastered model payload and its matching
-  primary textures with the supplied Alice assets. This test does not replace
-  xa_ex_0010.mdls, any MSET, or any Lua script.
+  Replaces normal-field Sora's base MDLS and complete remastered render set
+  with the matching Alice assets. This is an isolated model compatibility test;
+  it does not replace any MSET, Lua script, gameplay data, or weapon asset.
 game: kh1
 assets:
+  - name: xa_ex_0010.mdls
+    method: copy
+    source:
+      - name: Alice\Alice_original.mdls
   - name: remastered\xa_ex_0010.mdls\-c0.cvbl
     method: copy
     source:
       - name: Alice\-c0.cvbl
+  - name: remastered\xa_ex_0010.mdls\-5c130.cvbl
+    method: copy
+    source:
+      - name: Alice\-5c130.cvbl
   - name: remastered\xa_ex_0010.mdls\-1c0.dds
     method: copy
     source:
@@ -25,6 +33,22 @@ assets:
     method: copy
     source:
       - name: Alice\-1c3.dds
+  - name: remastered\xa_ex_0010.mdls\-1c4.dds
+    method: copy
+    source:
+      - name: Alice\-1c4.dds
+  - name: remastered\xa_ex_0010.mdls\-1c5.dds
+    method: copy
+    source:
+      - name: Alice\-1c5.dds
+  - name: remastered\xa_ex_0010.mdls\-1c6.dds
+    method: copy
+    source:
+      - name: Alice\-1c6.dds
+  - name: remastered\xa_ex_0010.mdls\-1c7.dds
+    method: copy
+    source:
+      - name: Alice\-1c7.dds
   - name: remastered\xa_ex_0010.mdls\-2c0.dds
     method: copy
     source:
@@ -33,3 +57,35 @@ assets:
     method: copy
     source:
       - name: Alice\-2c1.dds
+  - name: remastered\xa_ex_0010.mdls\-6a580.dds
+    method: copy
+    source:
+      - name: Alice\-6a580.dds
+  - name: remastered\xa_ex_0010.mdls\-6e580.dds
+    method: copy
+    source:
+      - name: Alice\-6e580.dds
+  - name: remastered\xa_ex_0010.mdls\-72580.dds
+    method: copy
+    source:
+      - name: Alice\-72580.dds
+  - name: remastered\xa_ex_0010.mdls\-76580.dds
+    method: copy
+    source:
+      - name: Alice\-76580.dds
+  - name: remastered\xa_ex_0010.mdls\-7a580.dds
+    method: copy
+    source:
+      - name: Alice\-7a580.dds
+  - name: remastered\xa_ex_0010.mdls\-7e580.dds
+    method: copy
+    source:
+      - name: Alice\-7e580.dds
+  - name: remastered\xa_ex_0010.mdls\-82580.dds
+    method: copy
+    source:
+      - name: Alice\-82580.dds
+  - name: remastered\xa_ex_0010.mdls\-86580.dds
+    method: copy
+    source:
+      - name: Alice\-86580.dds
