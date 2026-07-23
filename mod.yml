@@ -1,10 +1,9 @@
-title: Alice over Sora - Visual Cleanup Test v13
+title: Alice over Sora - Original Slot Material Fix Test v14
 description: >-
-  Visual-only refinement of v12. Flattens and grounds the feet, restores
-  the sharp left skirt strip to its stable pelvis binding, hangs the rear
-  bow tails downward, clears the idle forearm from the Keyblade guard,
-  and replaces Sora's actual -575f0 auxiliary remastered stream to stop
-  gray-material fallback. Preserves the fixed grip and v9 weapon pivot.
+  Retains every v13 geometry correction and fixes Sora's seven 512x512
+  fallback material slots using Alice's matching 512x512 texture atlases.
+  This avoids feeding mismatched HD dimensions into fallback slots during
+  dialog and state changes. Preserves the fixed grip and v9 weapon pivot.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
@@ -82,31 +81,31 @@ assets:
   - name: remastered\xa_ex_0010.mdls\-100.dds
     method: copy
     source:
-      - name: Alice\-1c0.dds
+      - name: Alice\-69100.dds
   - name: remastered\xa_ex_0010.mdls\-101.dds
     method: copy
     source:
-      - name: Alice\-1c1.dds
+      - name: Alice\-6d100.dds
   - name: remastered\xa_ex_0010.mdls\-102.dds
     method: copy
     source:
-      - name: Alice\-1c2.dds
+      - name: Alice\-71100.dds
   - name: remastered\xa_ex_0010.mdls\-103.dds
     method: copy
     source:
-      - name: Alice\-1c3.dds
+      - name: Alice\-75100.dds
   - name: remastered\xa_ex_0010.mdls\-104.dds
     method: copy
     source:
-      - name: Alice\-1c4.dds
+      - name: Alice\-79100.dds
   - name: remastered\xa_ex_0010.mdls\-105.dds
     method: copy
     source:
-      - name: Alice\-1c5.dds
+      - name: Alice\-7d100.dds
   - name: remastered\xa_ex_0010.mdls\-106.dds
     method: copy
     source:
-      - name: Alice\-1c5.dds
+      - name: Alice\-7d100.dds
   - name: remastered\xa_ex_0010.mdls\-1c6.dds
     method: copy
     source:
