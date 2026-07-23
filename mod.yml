@@ -1,9 +1,9 @@
-title: Alice over Sora - MDLS and CVBL Rig Test v4
+title: Alice over Sora - Stable Hands Rig Test v5
 description: >-
-  Corrected Alice-on-Sora re-rig using the xa_pc_1020 source. Alice's base
-  MDLS and both remastered CVBL vertex streams are re-bound to Sora's complete
-  293-joint hierarchy. This isolated visual test does not replace MSET, Lua,
-  gameplay, or weapons.
+  Alice-on-Sora re-rig using the xa_pc_1020 source. Builds on the stable v4
+  MDLS and CVBL conversion and anchors Alice's incompatible finger chains to
+  Sora's palms. This isolated visual test does not replace MSET, Lua, gameplay,
+  or weapons.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
