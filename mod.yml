@@ -1,10 +1,10 @@
-title: Alice over Sora - Grounded Feet and Material Stability Test v12
+title: Alice over Sora - Visual Cleanup Test v13
 description: >-
-  Corrective visual-only refinement of v11. Restores v7's grounded
-  lower-leg, ankle, foot, and toe geometry in the base and remastered
-  streams while retaining v11's fixed grip, v9 weapon pivot, and
-  conservative skirt strips. Adds Alice texture aliases for Sora's
-  alternate remastered material slots to prevent native/gray fallback.
+  Visual-only refinement of v12. Flattens and grounds the feet, restores
+  the sharp left skirt strip to its stable pelvis binding, hangs the rear
+  bow tails downward, clears the idle forearm from the Keyblade guard,
+  and replaces Sora's actual -575f0 auxiliary remastered stream to stop
+  gray-material fallback. Preserves the fixed grip and v9 weapon pivot.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
@@ -15,6 +15,10 @@ assets:
     method: copy
     source:
       - name: Alice\-c0.cvbl
+  - name: remastered\xa_ex_0010.mdls\-575f0.cvbl
+    method: copy
+    source:
+      - name: Alice\-58630.cvbl
   - name: remastered\xa_ex_0010.mdls\-58630.cvbl
     method: copy
     source:
