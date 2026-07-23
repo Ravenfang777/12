@@ -1,9 +1,9 @@
-title: Alice over Sora - Sora Rig Test v3
+title: Alice over Sora - MDLS and CVBL Rig Test v4
 description: >-
-  First true Alice-on-Sora skeleton conversion using the corrected xa_pc_1020
-  source. Alice's meshes and remastered assets are retained while the base
-  model uses Sora's complete 293-joint hierarchy and remapped rigid weights.
-  This isolated visual test does not replace MSET, Lua, gameplay, or weapons.
+  Corrected Alice-on-Sora re-rig using the xa_pc_1020 source. Alice's base
+  MDLS and both remastered CVBL vertex streams are re-bound to Sora's complete
+  293-joint hierarchy. This isolated visual test does not replace MSET, Lua,
+  gameplay, or weapons.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
