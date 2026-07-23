@@ -1,9 +1,10 @@
-title: Alice over Sora - Stable Hands Rig Test v5
+title: Alice over Sora - Sora Anchor Alignment Test v6
 description: >-
-  Alice-on-Sora re-rig using the xa_pc_1020 source. Builds on the stable v4
-  MDLS and CVBL conversion and anchors Alice's incompatible finger chains to
-  Sora's palms. This isolated visual test does not replace MSET, Lua, gameplay,
-  or weapons.
+  Alice-on-Sora re-rig using the corrected xa_pc_1020 source. Builds on the
+  stable v5 hands/body conversion and bakes Alice's rendered geometry toward
+  Sora's bind-space anatomy so the body, weapon hand, and Sora-owned collision
+  occupy the same visible area. This isolated model test does not replace MSET,
+  Lua, gameplay, collision events, effects, or weapons.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
