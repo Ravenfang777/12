@@ -1,10 +1,10 @@
-title: Alice over Sora - Full Anchor Alignment Test v8
+title: Alice over Sora - Weapon Pivot Alignment Test v9
 description: >-
-  Full mapped-anatomy refinement of the stable v7 Alice-on-Sora re-rig.
-  Aligns Alice's primary body regions to Sora's exact bind anchors across the
-  base MDLS and both remastered CVBL streams while preserving rigid skirt,
-  hair, finger, and sleeve safety groups. This isolated visual test does not
-  replace MSET, Lua, gameplay, collision events, effects, or weapons.
+  Narrow refinement of the stable v8 Alice-on-Sora re-rig. Moves Sora's
+  Keyblade root to Alice's visible palm endpoint so the weapon and its native
+  collision path better match her hand. Alice's v8 body, both remastered CVBL
+  streams, textures, and rigid safety groups remain unchanged. This test does
+  not replace MSET, Lua, gameplay, collision events, effects, or weapon assets.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
