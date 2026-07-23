@@ -1,0 +1,35 @@
+title: Alice over Sora - Visual Compatibility Test v1
+description: >-
+  Replaces only Sora's normal-field remastered model payload and its matching
+  primary textures with the supplied Alice assets. This test does not replace
+  xa_ex_0010.mdls, any MSET, or any Lua script.
+game: kh1
+assets:
+  - name: remastered\xa_ex_0010.mdls\-c0.cvbl
+    method: copy
+    source:
+      - name: Alice\-c0.cvbl
+  - name: remastered\xa_ex_0010.mdls\-1c0.dds
+    method: copy
+    source:
+      - name: Alice\-1c0.dds
+  - name: remastered\xa_ex_0010.mdls\-1c1.dds
+    method: copy
+    source:
+      - name: Alice\-1c1.dds
+  - name: remastered\xa_ex_0010.mdls\-1c2.dds
+    method: copy
+    source:
+      - name: Alice\-1c2.dds
+  - name: remastered\xa_ex_0010.mdls\-1c3.dds
+    method: copy
+    source:
+      - name: Alice\-1c3.dds
+  - name: remastered\xa_ex_0010.mdls\-2c0.dds
+    method: copy
+    source:
+      - name: Alice\-2c0.dds
+  - name: remastered\xa_ex_0010.mdls\-2c1.dds
+    method: copy
+    source:
+      - name: Alice\-2c1.dds
