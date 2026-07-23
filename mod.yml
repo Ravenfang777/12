@@ -1,12 +1,10 @@
-title: Alice over Sora - Conservative Skirt and Grip Test v11
+title: Alice over Sora - Grounded Feet and Material Stability Test v12
 description: >-
-  Corrective refinement of the v10 Alice-on-Sora model. Keeps the successful
-  fixed Keyblade grip and validated v9 weapon pivot, restores the stable v9
-  forearm and wrist mapping, and limits thigh-driven skirt movement to the
-  middle three levels of Alice's narrow side chains. The waistband, hem,
-  front, rear, and diagonal skirt chains remain pelvis-held. This visual-only
-  test does not replace MSET, Lua, gameplay, collision events, effects, or
-  weapon assets.
+  Corrective visual-only refinement of v11. Restores v7's grounded
+  lower-leg, ankle, foot, and toe geometry in the base and remastered
+  streams while retaining v11's fixed grip, v9 weapon pivot, and
+  conservative skirt strips. Adds Alice texture aliases for Sora's
+  alternate remastered material slots to prevent native/gray fallback.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
@@ -77,3 +75,71 @@ assets:
     method: copy
     source:
       - name: Alice\-7d100.dds
+  - name: remastered\xa_ex_0010.mdls\-100.dds
+    method: copy
+    source:
+      - name: Alice\-1c0.dds
+  - name: remastered\xa_ex_0010.mdls\-101.dds
+    method: copy
+    source:
+      - name: Alice\-1c1.dds
+  - name: remastered\xa_ex_0010.mdls\-102.dds
+    method: copy
+    source:
+      - name: Alice\-1c2.dds
+  - name: remastered\xa_ex_0010.mdls\-103.dds
+    method: copy
+    source:
+      - name: Alice\-1c3.dds
+  - name: remastered\xa_ex_0010.mdls\-104.dds
+    method: copy
+    source:
+      - name: Alice\-1c4.dds
+  - name: remastered\xa_ex_0010.mdls\-105.dds
+    method: copy
+    source:
+      - name: Alice\-1c5.dds
+  - name: remastered\xa_ex_0010.mdls\-106.dds
+    method: copy
+    source:
+      - name: Alice\-1c5.dds
+  - name: remastered\xa_ex_0010.mdls\-1c6.dds
+    method: copy
+    source:
+      - name: Alice\-1c5.dds
+  - name: remastered\xa_ex_0010.mdls\-66380.dds
+    method: copy
+    source:
+      - name: Alice\-69100.dds
+  - name: remastered\xa_ex_0010.mdls\-6a380.dds
+    method: copy
+    source:
+      - name: Alice\-6d100.dds
+  - name: remastered\xa_ex_0010.mdls\-6e380.dds
+    method: copy
+    source:
+      - name: Alice\-71100.dds
+  - name: remastered\xa_ex_0010.mdls\-72380.dds
+    method: copy
+    source:
+      - name: Alice\-75100.dds
+  - name: remastered\xa_ex_0010.mdls\-76380.dds
+    method: copy
+    source:
+      - name: Alice\-79100.dds
+  - name: remastered\xa_ex_0010.mdls\-7a380.dds
+    method: copy
+    source:
+      - name: Alice\-7d100.dds
+  - name: remastered\xa_ex_0010.mdls\-7e380.dds
+    method: copy
+    source:
+      - name: Alice\-7d100.dds
+  - name: remastered\xa_ex_0010.mdls\-8fb40.dds
+    method: copy
+    source:
+      - name: Alice\-2c0.dds
+  - name: remastered\xa_ex_0010.mdls\-a3290.dds
+    method: copy
+    source:
+      - name: Alice\-2c1.dds
