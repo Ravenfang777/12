@@ -1,11 +1,12 @@
-title: Alice over Sora - Skirt, Grip and Forearm Test v10
+title: Alice over Sora - Conservative Skirt and Grip Test v11
 description: >-
-  Refinement of the validated v9 Alice-on-Sora model. Divides Alice's rigid
-  skirt into pelvis-held front/rear/waist/hem regions and left/right side
-  regions that follow the corresponding upper thighs. Reshapes the weapon
-  hand into a fixed grip around the validated Keyblade root and improves the
-  weapon forearm's elbow-to-wrist alignment. This visual-only test does not
-  replace MSET, Lua, gameplay, collision events, effects, or weapon assets.
+  Corrective refinement of the v10 Alice-on-Sora model. Keeps the successful
+  fixed Keyblade grip and validated v9 weapon pivot, restores the stable v9
+  forearm and wrist mapping, and limits thigh-driven skirt movement to the
+  middle three levels of Alice's narrow side chains. The waistband, hem,
+  front, rear, and diagonal skirt chains remain pelvis-held. This visual-only
+  test does not replace MSET, Lua, gameplay, collision events, effects, or
+  weapon assets.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
