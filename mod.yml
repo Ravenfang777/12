@@ -1,10 +1,10 @@
-title: Alice over Sora - Sora Anchor Alignment Test v6
+title: Alice over Sora - Anatomy Pivot Alignment Test v7
 description: >-
-  Alice-on-Sora re-rig using the corrected xa_pc_1020 source. Builds on the
-  stable v5 hands/body conversion and bakes Alice's rendered geometry toward
-  Sora's bind-space anatomy so the body, weapon hand, and Sora-owned collision
-  occupy the same visible area. This isolated model test does not replace MSET,
-  Lua, gameplay, collision events, effects, or weapons.
+  Region-aware refinement of the stable v6 Alice-on-Sora re-rig. Aligns
+  Alice's torso, shoulders, arms, palms, head, hips, and knees toward their
+  mapped Sora bind pivots while keeping the shoes grounded and preserving the
+  rigid skirt, hair, and finger safety groups. This isolated visual test does
+  not replace MSET, Lua, gameplay, collision events, effects, or weapons.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
