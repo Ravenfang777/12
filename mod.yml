@@ -145,7 +145,7 @@ assets:
     method: copy
     source:
       - name: Alice\-2c1.dds
-- name: xa_ex_0010.mset
-  method: copy
-  source:
   - name: xa_ex_0010.mset
+    method: copy
+    source:
+      - name: xa_ex_0010.mset
