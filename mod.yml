@@ -1,8 +1,8 @@
-title: Alice over Sora - Three-Surface Material & Bow Correction Test v19
+title: Alice over Sora - Remastered Normal Repair Test v20
 description: >-
-  Rebuilds all three active remastered material atlases at their native
-  dimensions, stabilizes only the waist-bow material, and retains v18's
-  improved shoe profile plus v17's Lady Luck clearance.
+  Repairs the active PC remastered surface normals from Alice's base
+  topology while preserving every v19 texture, UV, rig, foot, bow,
+  grip, and Lady Luck alignment change.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
