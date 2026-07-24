@@ -1,9 +1,8 @@
-title: Alice over Sora - Runtime UV, Toe & Bow Correction Test v18
+title: Alice over Sora - Three-Surface Material & Bow Correction Test v19
 description: >-
-  Rebuilds the two affected remastered material atlases from Alice's
-  exact base-model UV sources, stabilizes only the long rear bow tails,
-  attaches the shoe tips to their parent foot joints, and raises only
-  the outsole contact plane while retaining v17's Lady Luck clearance.
+  Rebuilds all three active remastered material atlases at their native
+  dimensions, stabilizes only the waist-bow material, and retains v18's
+  improved shoe profile plus v17's Lady Luck clearance.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
