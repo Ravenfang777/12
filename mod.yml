@@ -1,8 +1,8 @@
-title: Alice over Sora - Remastered Normal Repair Test v20
+title: Alice over Sora - Native Atlas + Normal Repair Test v22
 description: >-
-  Repairs the active PC remastered surface normals from Alice's base
-  topology while preserving every v19 texture, UV, rig, foot, bow,
-  grip, and Lady Luck alignment change.
+  Restores Alice's original remastered atlases and UV layout while
+  retaining v20's active remastered-normal repair and all validated
+  v20 geometry, toe, grip, and Lady Luck alignment changes.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
