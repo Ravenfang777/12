@@ -1,9 +1,9 @@
-title: Alice over Sora - Zero-Normal Shading Repair Test v15
+title: Alice over Sora - Runtime Visual Cleanup Test v16
 description: >-
-  Preserves the complete v14 model, remastered streams, material-slot
-  mappings, rig, geometry, UVs, grip, skirt, feet, bow position, and
-  weapon pivot while reconstructing 126 zero-length MDLS normals that
-  caused fixed gray patches on skin, ribbon, and dress components.
+  Restores and pelvis-binds Alice's complete waist-bow/dress fragment
+  set, removes opaque gray atlas placeholders by edge padding, raises
+  and levels both shoes, and moves the weapon pivot outward to reduce
+  Lady Luck guard clipping while preserving v15's stable body rig.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
