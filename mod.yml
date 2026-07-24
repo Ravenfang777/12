@@ -1,8 +1,9 @@
-title: Alice over Sora - Regression Rollback Test v17
+title: Alice over Sora - Runtime UV, Toe & Bow Correction Test v18
 description: >-
-  Rolls back v16's failed bow rebind and texture padding, keeps its
-  successful Lady Luck weapon-root clearance, and replaces the excessive
-  shoe lift with a conservative sole and toe-profile correction.
+  Rebuilds the two affected remastered material atlases from Alice's
+  exact base-model UV sources, stabilizes only the long rear bow tails,
+  attaches the shoe tips to their parent foot joints, and raises only
+  the outsole contact plane while retaining v17's Lady Luck clearance.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
