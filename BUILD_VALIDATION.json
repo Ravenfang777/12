@@ -1,0 +1,52 @@
+{
+  "package": "KH1FM_Alice_over_Sora_Zero_Normal_Shading_Repair_Test_v15",
+  "repair": {
+    "joints": 293,
+    "meshes": 6,
+    "vertices": 5098,
+    "faces": 2648,
+    "zeroNormalsBefore": 126,
+    "zeroNormalsAfter": 0,
+    "repairedNormalRecords": 126,
+    "changedBytes": 1512,
+    "methods": {
+      "adjacent-faces": 114,
+      "exact-position-uv": 12
+    },
+    "byMeshJoint": {
+      "1:150": 16,
+      "1:18": 6,
+      "1:2": 12,
+      "1:44": 6,
+      "1:69": 5,
+      "2:2": 8,
+      "3:69": 20,
+      "4:2": 48,
+      "4:69": 5
+    },
+    "meshOrientationVotes": [
+      188,
+      298,
+      186,
+      114,
+      106,
+      118
+    ],
+    "meshOrientation": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "files": 19,
+  "unchangedFiles": 16,
+  "changedFiles": [
+    "Alice/xa_ex_0010.mdls",
+    "README.txt",
+    "mod.yml"
+  ],
+  "modelSha256": "8b5781ea4865dca3de464b767b5071cad9a42412153360b5181e4853854f9a65"
+}

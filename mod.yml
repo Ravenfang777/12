@@ -1,9 +1,9 @@
-title: Alice over Sora - Original Slot Material Fix Test v14
+title: Alice over Sora - Zero-Normal Shading Repair Test v15
 description: >-
-  Retains every v13 geometry correction and fixes Sora's seven 512x512
-  fallback material slots using Alice's matching 512x512 texture atlases.
-  This avoids feeding mismatched HD dimensions into fallback slots during
-  dialog and state changes. Preserves the fixed grip and v9 weapon pivot.
+  Preserves the complete v14 model, remastered streams, material-slot
+  mappings, rig, geometry, UVs, grip, skirt, feet, bow position, and
+  weapon pivot while reconstructing 126 zero-length MDLS normals that
+  caused fixed gray patches on skin, ribbon, and dress components.
 game: kh1
 assets:
   - name: xa_ex_0010.mdls
